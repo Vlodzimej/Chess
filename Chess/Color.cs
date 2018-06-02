@@ -1,18 +1,15 @@
-namespace Chess
-{
-    enum Color
-    {
+namespace Chess {
+    enum Color {
         none,
         white,
         black
     }
 
-    static class ColorMethods
-    {
-        public class Color FlipColor(this Color color)
+    static class ColorMethods {
+        public static Color FlipColor (this Color color) 
         {
-            if(color == Color.black) return Color.white;
-            if(color == Color.white) return Color.black;
+            if (color == Color.black) return Color.white;
+            if (color == Color.white) return Color.black;
             return Color.none;
         }
     }

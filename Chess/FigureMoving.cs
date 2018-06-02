@@ -7,7 +7,7 @@ namespace Chess
         public Square to { get; private set; }
         public Figure promotion { get; private set; }
 
-        public FigureMoving (FigureMoving fs, Square to, Figure promotion = Figure.none)
+        public FigureMoving (FigureOnSquare fs, Square to, Figure promotion = Figure.none)
         {
             this.figure = fs.figure;
             this.from = fs.square;

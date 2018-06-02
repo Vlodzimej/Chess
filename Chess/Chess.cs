@@ -8,7 +8,7 @@ namespace Chess
         public string fen {get; private set; }
         Board board;
 
-        public Chess (string fen = "rnbqkbnr/ppp1pppp/8/3p4/4P3/8/PPPP1PPP/RNBQKBNR w KQkq d6 0 2")
+        public Chess (string fen = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1")
         {
             this.fen = fen;
             board = new Board(fen);
@@ -29,7 +29,9 @@ namespace Chess
 
         public char GetFigureAt (int x, int y)
         {
-        
+            Square square = new Square(x,y);
+            Figure f = board.GetFigureAt(square);
+            return f == Figure.none ? '.' : (char)f;
         }
     }
 }

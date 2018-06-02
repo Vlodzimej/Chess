@@ -10,3 +10,4 @@
 /Users/vlodzimej/Documents/Projects/Chess/ChessDemo/bin/Debug/netcoreapp2.0/Chess.pdb
 /Users/vlodzimej/Documents/Projects/Chess/ChessDemo/obj/Debug/netcoreapp2.0/ChessDemo.dll
 /Users/vlodzimej/Documents/Projects/Chess/ChessDemo/obj/Debug/netcoreapp2.0/ChessDemo.pdb
+/Users/vlodzimej/Documents/Projects/Chess/ChessDemo/obj/Debug/netcoreapp2.0/ChessDemo.csprojResolveAssemblyReference.cache
