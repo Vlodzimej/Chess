@@ -1,0 +1,12 @@
+/Users/vlodzimej/Documents/Projects/Chess/ChessDemo/obj/Debug/netcoreapp2.0/ChessDemo.csproj.CoreCompileInputs.cache
+/Users/vlodzimej/Documents/Projects/Chess/ChessDemo/obj/Debug/netcoreapp2.0/ChessDemo.AssemblyInfoInputs.cache
+/Users/vlodzimej/Documents/Projects/Chess/ChessDemo/obj/Debug/netcoreapp2.0/ChessDemo.AssemblyInfo.cs
+/Users/vlodzimej/Documents/Projects/Chess/ChessDemo/bin/Debug/netcoreapp2.0/ChessDemo.deps.json
+/Users/vlodzimej/Documents/Projects/Chess/ChessDemo/bin/Debug/netcoreapp2.0/ChessDemo.runtimeconfig.json
+/Users/vlodzimej/Documents/Projects/Chess/ChessDemo/bin/Debug/netcoreapp2.0/ChessDemo.runtimeconfig.dev.json
+/Users/vlodzimej/Documents/Projects/Chess/ChessDemo/bin/Debug/netcoreapp2.0/ChessDemo.dll
+/Users/vlodzimej/Documents/Projects/Chess/ChessDemo/bin/Debug/netcoreapp2.0/ChessDemo.pdb
+/Users/vlodzimej/Documents/Projects/Chess/ChessDemo/bin/Debug/netcoreapp2.0/Chess.dll
+/Users/vlodzimej/Documents/Projects/Chess/ChessDemo/bin/Debug/netcoreapp2.0/Chess.pdb
+/Users/vlodzimej/Documents/Projects/Chess/ChessDemo/obj/Debug/netcoreapp2.0/ChessDemo.dll
+/Users/vlodzimej/Documents/Projects/Chess/ChessDemo/obj/Debug/netcoreapp2.0/ChessDemo.pdb

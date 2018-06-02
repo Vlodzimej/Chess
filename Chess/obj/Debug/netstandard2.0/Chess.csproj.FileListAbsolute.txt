@@ -1,0 +1,8 @@
+/Users/vlodzimej/Documents/Projects/Chess/Chess/bin/Debug/netstandard2.0/Chess.deps.json
+/Users/vlodzimej/Documents/Projects/Chess/Chess/bin/Debug/netstandard2.0/Chess.dll
+/Users/vlodzimej/Documents/Projects/Chess/Chess/bin/Debug/netstandard2.0/Chess.pdb
+/Users/vlodzimej/Documents/Projects/Chess/Chess/obj/Debug/netstandard2.0/Chess.csproj.CoreCompileInputs.cache
+/Users/vlodzimej/Documents/Projects/Chess/Chess/obj/Debug/netstandard2.0/Chess.AssemblyInfoInputs.cache
+/Users/vlodzimej/Documents/Projects/Chess/Chess/obj/Debug/netstandard2.0/Chess.AssemblyInfo.cs
+/Users/vlodzimej/Documents/Projects/Chess/Chess/obj/Debug/netstandard2.0/Chess.dll
+/Users/vlodzimej/Documents/Projects/Chess/Chess/obj/Debug/netstandard2.0/Chess.pdb
