@@ -11,3 +11,17 @@
 /Users/vlodzimej/Documents/Projects/Chess/ChessDemo/obj/Debug/netcoreapp2.0/ChessDemo.dll
 /Users/vlodzimej/Documents/Projects/Chess/ChessDemo/obj/Debug/netcoreapp2.0/ChessDemo.pdb
 /Users/vlodzimej/Documents/Projects/Chess/ChessDemo/obj/Debug/netcoreapp2.0/ChessDemo.csprojResolveAssemblyReference.cache
+C:\Projects\Chess\ChessDemo\bin\Debug\netcoreapp2.0\ChessDemo.deps.json
+C:\Projects\Chess\ChessDemo\bin\Debug\netcoreapp2.0\ChessDemo.runtimeconfig.json
+C:\Projects\Chess\ChessDemo\bin\Debug\netcoreapp2.0\ChessDemo.runtimeconfig.dev.json
+C:\Projects\Chess\ChessDemo\bin\Debug\netcoreapp2.0\ChessDemo.dll
+C:\Projects\Chess\ChessDemo\bin\Debug\netcoreapp2.0\ChessDemo.pdb
+C:\Projects\Chess\ChessDemo\bin\Debug\netcoreapp2.0\Chess.dll
+C:\Projects\Chess\ChessDemo\bin\Debug\netcoreapp2.0\Chess.pdb
+C:\Projects\Chess\ChessDemo\obj\Debug\netcoreapp2.0\ChessDemo.csprojResolveAssemblyReference.cache
+C:\Projects\Chess\ChessDemo\obj\Debug\netcoreapp2.0\ChessDemo.csproj.CoreCompileInputs.cache
+C:\Projects\Chess\ChessDemo\obj\Debug\netcoreapp2.0\ChessDemo.AssemblyInfoInputs.cache
+C:\Projects\Chess\ChessDemo\obj\Debug\netcoreapp2.0\ChessDemo.AssemblyInfo.cs
+C:\Projects\Chess\ChessDemo\obj\Debug\netcoreapp2.0\ChessDemo.csproj.CopyComplete
+C:\Projects\Chess\ChessDemo\obj\Debug\netcoreapp2.0\ChessDemo.dll
+C:\Projects\Chess\ChessDemo\obj\Debug\netcoreapp2.0\ChessDemo.pdb

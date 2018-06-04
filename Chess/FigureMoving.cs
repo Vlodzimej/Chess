@@ -1,6 +1,8 @@
+using System;
+
 namespace Chess
 {
-    class FigureMoving 
+    public class FigureMoving 
     {
         public Figure figure { get; private set; }
         public Square from { get; private set; }
@@ -21,6 +23,23 @@ namespace Chess
             this.from = new Square (move.Substring(1,2));
             this.to = new Square(move.Substring(3, 2));
             this.promotion = (move.Length == 6) ? (Figure)move[5] : Figure.none;
+        }
+
+        public int DeltaX { get { return to.x - from.x; } }
+        public int DeltaY { get { return to.y - from.y; } }
+
+        public int AbsDeltaX { get { return Math.Abs(DeltaX); } }
+        public int AbsDeltaY { get { return Math.Abs(DeltaY); } }
+
+        public int SingX { get { return Math.Sign(DeltaX); } }
+        public int SingY { get { return Math.Sign(DeltaY); } }
+
+        public override string ToString()
+        {
+            string text = (char)figure + from.Name + to.Name;
+            if (promotion != Figure.none)
+                text += (char)promotion;
+            return text;
         }
     }
 }

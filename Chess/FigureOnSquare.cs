@@ -1,6 +1,6 @@
 namespace Chess
 {
-    class FigureOnSquare
+    public class FigureOnSquare
     {
         public Figure figure { get; private set; }
         public Square square { get; private set; }

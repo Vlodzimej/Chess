@@ -1,8 +1,9 @@
+using System.Collections.Generic;
 using System.Text;
 
 namespace Chess {
-    class Board {
-        string fen { get; set; }
+    public class Board {
+        public string fen { get; set; }
         Figure[, ] figures;
         public Color moveColor { get; private set; }
         public int moveNumber { get; private set; }
@@ -34,7 +35,15 @@ namespace Chess {
             string[] lines = data.Split ('/');
             for (int y = 7; y >= 0; y--)
                 for (int x = 0; x < 8; x++)
-                    figures[x, y] = (Figure) lines[7 - y][x];
+                    figures[x, y] = lines[7 - y][x] == '.' ? Figure.none : 
+                           (Figure) lines[7 - y][x];
+        }
+
+        public IEnumerable<FigureOnSquare> YieldFigures()
+        {
+            foreach (Square square in Square.YieldSquares())
+                if (GetFigureAt(square).GetColor() == moveColor)
+                    yield return new FigureOnSquare(GetFigureAt(square), square);
         }
 
         void GenerateFEN()
@@ -54,6 +63,9 @@ namespace Chess {
                     if(y > 0)
                     sb.Append('/');
             }
+            string eight = "11111111";
+            for(int j = 8; j >= 2; j --)
+                sb.Replace(eight.Substring(0, j), j.ToString());
             return sb.ToString();
         }
 

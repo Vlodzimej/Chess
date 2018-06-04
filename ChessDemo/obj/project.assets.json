@@ -680,35 +680,37 @@
     ]
   },
   "packageFolders": {
-    "/Users/vlodzimej/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\АмелькинВладимирВлад\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vlodzimej/Documents/Projects/Chess/ChessDemo/ChessDemo.csproj",
+      "projectUniqueName": "C:\\Projects\\Chess\\ChessDemo\\ChessDemo.csproj",
       "projectName": "ChessDemo",
-      "projectPath": "/Users/vlodzimej/Documents/Projects/Chess/ChessDemo/ChessDemo.csproj",
-      "packagesPath": "/Users/vlodzimej/.nuget/packages/",
-      "outputPath": "/Users/vlodzimej/Documents/Projects/Chess/ChessDemo/obj/",
+      "projectPath": "C:\\Projects\\Chess\\ChessDemo\\ChessDemo.csproj",
+      "packagesPath": "C:\\Users\\АмелькинВладимирВлад\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\Chess\\ChessDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/vlodzimej/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\АмелькинВладимирВлад\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "/Users/vlodzimej/Documents/Projects/Chess/Chess/Chess.csproj": {
-              "projectPath": "/Users/vlodzimej/Documents/Projects/Chess/Chess/Chess.csproj"
+            "C:\\Projects\\Chess\\Chess\\Chess.csproj": {
+              "projectPath": "C:\\Projects\\Chess\\Chess\\Chess.csproj"
             }
           }
         }

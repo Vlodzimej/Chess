@@ -4,10 +4,13 @@ using Chess;
 namespace ChessDemo {
     class Program {
         static void Main (string[] args) {
-            Chess.Chess chess = new Chess.Chess ();
+            Chess.Chess chess = new Chess.Chess ( "rnbqkbnr/pppppppp/8/8/8/8/8/RNBQKBNR w KQkq - 0 1");
             while (true) {
                 Console.WriteLine (chess.fen);
                 Print (ChessToAscii (chess));
+                foreach (string moves in chess.GetAllMoves())
+                    Console.Write(moves + "\n");
+                Console.Write("> ");
                 string move = Console.ReadLine ();
                 if (move == "") break;
                 chess = chess.Move (move);
