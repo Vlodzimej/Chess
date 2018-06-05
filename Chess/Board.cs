@@ -22,10 +22,6 @@ namespace Chess {
             InitFigures (parts[0]);
             moveColor = (parts[1] == "b") ? Color.black : Color.white;
             moveNumber = int.Parse (parts[5]);
-
-            SetFigureAt (new Square ("a1"), Figure.whiteKing);
-            SetFigureAt (new Square ("h8"), Figure.blackKing);
-            moveColor = Color.white;
         }
 
         void InitFigures (string data) {
@@ -89,6 +85,42 @@ namespace Chess {
             next.moveColor = moveColor.FlipColor ();
             next.GenerateFEN();
             return next;
+        }
+
+        bool CanEatKing()
+        {
+            Square badKing = FindBadKing();
+            Moves moves = new Moves(this);
+            foreach(FigureOnSquare fs in YieldFigures())
+            {
+                FigureMoving fm = new FigureMoving(fs, badKing);
+                if (moves.CanMove(fm))
+                    return true;
+            }
+            return false;
+        }
+
+        private Square FindBadKing()
+        {
+            Figure badKing = moveColor == Color.black ? Figure.whiteKing : Figure.blackKing;
+            foreach (Square square in Square.YieldSquares())
+                if (GetFigureAt(square) == badKing)
+                    return square;
+            return Square.none;
+        }
+
+        public bool IsCheck()
+        {
+            Board after = new Board(fen);
+            after.moveColor = moveColor.FlipColor();
+            return after.CanEatKing();
+
+        }
+
+        public bool IsCheckAfterMove(FigureMoving fm)
+        {
+            Board after = Move(fm);
+            return after.CanEatKing();
         }
     }
 }
